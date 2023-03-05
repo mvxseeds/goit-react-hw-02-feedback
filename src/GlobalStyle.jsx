@@ -19,11 +19,13 @@ export const GlobalStyle = props => (
       }
 
       #root {
-        padding: 100px 0;
+        padding-top: 40px;
+        padding-left: 40px;
+
         display: flex;
-        justify-content: space-around;
-        width: 100%;
-        height: 100%;
+        flex-direction: column;
+      
+        width: 400px;
       }
 
       ul {
@@ -31,6 +33,7 @@ export const GlobalStyle = props => (
         margin: 0;
         padding: 0;
       }
+      
     `}
   />
 );

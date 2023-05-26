@@ -1,7 +1,7 @@
-import { Prompt } from "./Notification.styled";
+import { Prompt } from './Notification.styled';
 
-export const Notification = ({message}) => {
-    return (
-        <Prompt>{message}</Prompt>
-    );
-}
+const Notification = ({ message }) => {
+  return <Prompt>{message}</Prompt>;
+};
+
+export default Notification;

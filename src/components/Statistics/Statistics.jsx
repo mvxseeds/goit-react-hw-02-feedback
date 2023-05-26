@@ -1,6 +1,6 @@
 import { Prompt } from "components/Notification/Notification.styled";
 
-export const Statistics = ({good, neutral, bad, total, positivePercentage}) => {
+const Statistics = ({good, neutral, bad, total, positivePercentage}) => {
     return (
         <>
             <Prompt>Good: {good}</Prompt>
@@ -12,3 +12,4 @@ export const Statistics = ({good, neutral, bad, total, positivePercentage}) => {
     );
 };
 
+export default Statistics;

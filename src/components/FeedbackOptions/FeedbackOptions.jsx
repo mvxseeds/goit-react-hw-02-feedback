@@ -1,6 +1,6 @@
 import { OptionsList, Option, FeedbackButton } from "./FeedbackOptions.styled";
 
-export const FeedbackOptions = ({options, onLeaveFeedback}) => {
+const FeedbackOptions = ({options, onLeaveFeedback}) => {
     return (
         <OptionsList>{
             options.map(option => {
@@ -13,3 +13,5 @@ export const FeedbackOptions = ({options, onLeaveFeedback}) => {
         }</OptionsList>
     );
 };
+
+export default FeedbackOptions;
